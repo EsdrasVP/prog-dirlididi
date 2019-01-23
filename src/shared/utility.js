@@ -1,3 +1,8 @@
+const headers = {
+  'Accept': 'application/json',
+  'Content-Type': 'application/json'
+}
+
 export const fetchGet = (endpoint) => {
   return window.fetch(endpoint)
     .then(response => response.json())
@@ -7,10 +12,7 @@ export const fetchGet = (endpoint) => {
 export const fetchPost = (endpoint, body) => {
   return window.fetch(endpoint, {
     method: 'POST',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    },
+    headers: headers,
     body: JSON.stringify(body)
   }).then(response => response.json())
     .catch(error => console.log(error));
@@ -26,10 +28,7 @@ export const fetchDelete = (endpoint) => (
 export const fetchPut = (endpoint, body) => {
   return window.fetch(endpoint, {
     method: 'PUT',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    },
+    headers: headers,
     body: JSON.stringify(body)
   }).then(response => response.json())
     .catch(error => console.log(error));

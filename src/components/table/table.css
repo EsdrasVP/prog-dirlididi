@@ -1,5 +1,9 @@
+.react-bs-table {
+  border-radius: 3px;
+}
+
 .react-bs-container-header {
-  border-collapse: collapse;
+  border-radius: 3px;
   background-color: #010000;
   color: #FEFEFE;
 }

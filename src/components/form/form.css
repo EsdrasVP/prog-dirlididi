@@ -1,0 +1,98 @@
+.form-control-field {
+	width: 40%;
+}
+
+#form-control-description {
+	height: 200px;
+}
+
+#tag-name {
+	width: 80%;
+	border-radius: 3px;
+	margin-top: 1%;
+}
+
+#test-name, #test-tip, #test-input, #test-output {
+	width: 20%;
+  height: 34.7px;
+	border-radius: 3px;
+	margin-top: 1%;
+}
+
+#remove-tag-btn {
+	margin-top: 1%;
+	margin-left: 2%;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-bottom: 3.7px;
+	padding-top: 3.7px;
+	background-color: #337ab7;
+	border-color: #337ab7;
+	font-weight: normal;
+	color: #fff;
+}
+
+.add-tag-btn {
+	font-weight: normal;
+	background-color: #ddd;
+	margin-top: 1%;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-bottom: 3.7px;
+	padding-top: 3.7px;
+	position: inherit;
+}
+
+.add-test-btn {
+	font-weight: normal;
+	background-color: #ddd;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-bottom: 3.7px;
+	padding-top: 3.7px;
+	position: inherit;
+}
+
+#remove-test-btn {
+	margin-top: 1%;
+	margin-left: 0.5%;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-bottom: 4px;
+	padding-top: 3.7px;
+	background-color: #337ab7;
+	border-color: #337ab7;
+	font-weight: normal;
+	color: #fff;
+}
+
+#remove-test-btn:hover, #remove-tag-btn:hover {
+	background-color: #1e496d;
+	border-color: #1e496d;
+	color: #fff;
+}
+
+#add-test-btn-div {
+	margin-top: 1%;
+	position: inherit;
+}
+
+.button-submit {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 15px;
+	border-radius: 3px;
+	font-weight: normal;
+	border-style: none;
+	background-color: #337ab7;
+	border-color: #337ab7;
+	color: #fff;
+}
+
+.button-submit:hover{
+	background-color: #1e496d;
+	border-color: #1e496d;
+	color: #fff;
+}

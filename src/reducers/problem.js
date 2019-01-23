@@ -14,6 +14,17 @@ const ProblemReducer = (state = initialState, action) => {
         isLoading: false,
         problems: action.problems
       };
+    case action.CREATE_PROBLEM:
+      return {
+        ...state,
+        problem: {
+          name: action.name,
+          description: action.description,
+          tip: action.tip,
+          tags: action.tags,
+          tests: action.tests
+        }
+      };
     default: return state;
   }
 };

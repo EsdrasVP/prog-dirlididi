@@ -1,5 +1,28 @@
 .problems-container {
-	margin-top: 5%;
+	margin-top: 2%;
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+#add-problem-form {
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.button-add {
+	background-color: #337ab7;
+	border-color: #337ab7;
+	color: #fff;
+	border-radius: 3px;
+	display: block;
+	padding: 5px;
+	font-size: 15px;
+	border-style: none;
+}
+
+.button-add:hover, .button-submit:hover{
+	background-color: #1e496d;
+	border-color: #1e496d;
+	color: #fff;
 }
